@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLIENT_MAXNUM	server.h	21;"	d
+COUNT_CYCLE	server.h	20;"	d
+MTU_NUM	server.h	19;"	d
+TEST_PORT	server.h	18;"	d
+__SERVER_H	server.h	2;"	d
+_thread_args	server.h	/^typedef struct _thread_args {$/;"	s
+_thread_args::client_sockfd	server.h	/^	int client_sockfd;$/;"	m	struct:_thread_args	access:public
+_thread_args::data_pointer	server.h	/^	char *data_pointer;$/;"	m	struct:_thread_args	access:public
+_thread_args::next	server.h	/^	struct _thread_args *next;$/;"	m	struct:_thread_args	typeref:struct:_thread_args::_thread_args	access:public
+_thread_args::packet_count	server.h	/^	long packet_count;$/;"	m	struct:_thread_args	access:public
+_thread_args::thread_id	server.h	/^	pthread_t thread_id;$/;"	m	struct:_thread_args	access:public
+_thread_args::thread_seq	server.h	/^	int thread_seq;$/;"	m	struct:_thread_args	access:public
+calculate_speed	server.h	/^float calculate_speed(thread_args *);$/;"	p	signature:(thread_args *)
+client_sockfd	server.h	/^	int client_sockfd;$/;"	m	struct:_thread_args	access:public
+data_pointer	server.h	/^	char *data_pointer;$/;"	m	struct:_thread_args	access:public
+main	server.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+malloc_packet	server.h	/^char *malloc_packet(void);$/;"	p	signature:(void)
+next	server.h	/^	struct _thread_args *next;$/;"	m	struct:_thread_args	typeref:struct:_thread_args::_thread_args	access:public
+packet_count	server.h	/^	long packet_count;$/;"	m	struct:_thread_args	access:public
+sem_send_data	server.c	/^sem_t sem_send_data;$/;"	v
+thread_args	server.h	/^}thread_args;$/;"	t	typeref:struct:_thread_args
+thread_count	server.h	/^void *thread_count(void *arg);$/;"	p	signature:(void *arg)
+thread_id	server.h	/^	pthread_t thread_id;$/;"	m	struct:_thread_args	access:public
+thread_response	server.h	/^void *thread_response(void *arg);$/;"	p	signature:(void *arg)
+thread_seq	server.h	/^	int thread_seq;$/;"	m	struct:_thread_args	access:public
+timer_cmp	server.h	/^int timer_cmp(struct timeval , struct timeval);$/;"	p	signature:(struct timeval , struct timeval)

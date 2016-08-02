@@ -1,0 +1,8 @@
+-e !_TAG_FILE_SORTED	2	/2=foldcase/
+client.c	./client.c	1
+client.h	./client.h	1
+cscope.in.out	./cscope.in.out	1
+cscope.out	./cscope.out	1
+cscope.po.out	./cscope.po.out	1
+tags.fn	./tags.fn	1
+tags	./tags	1
